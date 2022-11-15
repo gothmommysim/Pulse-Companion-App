@@ -3,7 +3,10 @@
 using System;
 using System.IO;
 using System.Collections;
+//Code by Sim
+
 using System.Collections.Generic;
+using UnityEngine.Android;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;

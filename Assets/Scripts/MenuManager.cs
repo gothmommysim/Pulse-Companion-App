@@ -1,4 +1,4 @@
-﻿//Code by Sim Sealy
+﻿//Code by Sim
 
 using System;
 using System.Collections;
@@ -72,6 +72,17 @@ public class MenuManager : MonoBehaviour
             currentMenu.SetActive(false);
             prevMenu.Add(currentMenu);
             currentMenu = GameObject.Find("Main Camera/Canvas/Hub");
+            currentMenu.SetActive(true);
+        }
+    }
+
+    public void GoToWorkouts()
+    {
+        if (!ProfileHandler.overwriteRequested)
+        {
+            currentMenu.SetActive(false);
+            prevMenu.Add(currentMenu);
+            currentMenu = GameObject.Find("Main Camera/Canvas/Workouts");
             currentMenu.SetActive(true);
         }
     }

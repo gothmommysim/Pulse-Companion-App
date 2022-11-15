@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//Code by Sim
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;

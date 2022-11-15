@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "314e485242443498",
         "name": "com.TeamPulse.PulseCompanionApp",
-        "processId": 1311,
+        "processId": 8670,
         "exited": true
     },
     "m_SelectedPriority": 0,
@@ -30,6 +30,30 @@
             "deviceId": "314e485242443498",
             "name": "com.TeamPulse.PulseCompanionApp",
             "processId": 1311,
+            "exited": true
+        },
+        {
+            "deviceId": "314e485242443498",
+            "name": "com.TeamPulse.PulseCompanionApp",
+            "processId": 29972,
+            "exited": false
+        },
+        {
+            "deviceId": "314e485242443498",
+            "name": "com.TeamPulse.PulseCompanionApp",
+            "processId": 24514,
+            "exited": false
+        },
+        {
+            "deviceId": "314e485242443498",
+            "name": "com.TeamPulse.PulseCompanionApp",
+            "processId": 31379,
+            "exited": true
+        },
+        {
+            "deviceId": "314e485242443498",
+            "name": "com.TeamPulse.PulseCompanionApp",
+            "processId": 8670,
             "exited": true
         }
     ],
