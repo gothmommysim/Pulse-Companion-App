@@ -14,6 +14,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Mobile.AndroidLogcat.Editor.dll:
     - Unity.Android.Logcat.AndroidLogcatManager
+    Unity.Notifications.dll:
+    - Unity.Notifications.UnityNotificationEditorManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -71,55 +73,55 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11308}
+      Script: {instanceID: 11312}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 11668}
     - Class: 114
-      Script: {instanceID: 11712}
+      Script: {instanceID: 11720}
     - Class: 114
-      Script: {instanceID: 11838}
+      Script: {instanceID: 11846}
     - Class: 114
-      Script: {instanceID: 11862}
+      Script: {instanceID: 11870}
     - Class: 114
-      Script: {instanceID: 11950}
+      Script: {instanceID: 11958}
     - Class: 114
-      Script: {instanceID: 11960}
+      Script: {instanceID: 11968}
     - Class: 114
-      Script: {instanceID: 12008}
+      Script: {instanceID: 12016}
     - Class: 114
-      Script: {instanceID: 12176}
+      Script: {instanceID: 12186}
     - Class: 114
-      Script: {instanceID: 12354}
+      Script: {instanceID: 12364}
     - Class: 114
-      Script: {instanceID: 12408}
+      Script: {instanceID: 12420}
     - Class: 114
-      Script: {instanceID: 12720}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 13090}
+      Script: {instanceID: 13102}
     - Class: 114
-      Script: {instanceID: 13126}
+      Script: {instanceID: 13138}
     - Class: 114
-      Script: {instanceID: 13244}
+      Script: {instanceID: 13256}
     - Class: 114
-      Script: {instanceID: 13448}
+      Script: {instanceID: 13462}
     - Class: 114
-      Script: {instanceID: 13452}
+      Script: {instanceID: 13466}
     - Class: 114
-      Script: {instanceID: 13470}
+      Script: {instanceID: 13484}
     - Class: 114
-      Script: {instanceID: 13792}
+      Script: {instanceID: 13794}
     - Class: 114
-      Script: {instanceID: 13896}
+      Script: {instanceID: 13808}
     - Class: 114
-      Script: {instanceID: 14152}
+      Script: {instanceID: 13912}
     - Class: 114
-      Script: {instanceID: 14184}
+      Script: {instanceID: 14170}
     - Class: 114
-      Script: {instanceID: 14544}
+      Script: {instanceID: 14204}
     - Class: 114
-      Script: {instanceID: 14588}
+      Script: {instanceID: 14568}
     - Class: 114
-      Script: {instanceID: 21286}
+      Script: {instanceID: 14612}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -511,6 +513,12 @@ ScriptsOnlyBuild:
     className: iOSNotificationsWrapper
   - hash:
       serializedVersion: 2
+      Hash: 2ec37303e1a44a09caaaf83b44295eb1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Calendar
+  - hash:
+      serializedVersion: 2
       Hash: 6939772cb3ce775a8e8d99f332534491
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -647,48 +655,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 2ec37303e1a44a09caaaf83b44295eb1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Calendar
-  - hash:
-      serializedVersion: 2
-      Hash: 5d694fb001503417d2bb4a27eeab8ac5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TestReporter
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ReporterGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ReporterMessageReceiver
-  - hash:
-      serializedVersion: 2
-      Hash: 0d1178ba5feb7f099e893c89bb42bd7f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Reporter
-  - hash:
-      serializedVersion: 2
-      Hash: 2c635387bd5baa1d694fec8d0d8c0db1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BluetoothTest
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Rotate
   platform: 13
   scenePathNames:
   - Assets/Scenes/App.unity
