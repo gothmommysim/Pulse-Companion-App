@@ -31,7 +31,7 @@ The user’s profile data is saved locally to a config file designed to be strea
 Due to time constraints, the test cases for the Pulse Heart Rate Monitor App were set up manually to validate its core functionality. The manual testing process was sufficient for a prototype and covered all of the features, including the accuracy of the heart rate readings, Bluetooth connectivity, and data saving and retrieval functionality. The team tested each feature by inputting data and verifying the output, ensuring that the app was functioning as intended. Despite not being as rigorous as desired, covering all edge cases, this manual testing process allowed the team to deliver a functioning prototype that met their requirements.
 
 ## Challenges
-One of the challenges faced by the team was implementing Bluetooth Low Energy functionality in the Android app. Since C# is a language native to Microsoft, there was no built-in Bluetooth functionality for Android. The team designed a Bluetooth plugin in Android Studio using Java/Kotlin, allowing C# to call functions in the Kotlin class and scan for BLE devices.
+One of the challenges faced by the team was implementing Bluetooth Low Energy functionality in the Android app. Since C# is a language native to Microsoft, there was no built-in Bluetooth functionality for Android. The team designed a Bluetooth plugin in Android Studio using Kotlin, allowing C# to call functions in the Kotlin class and scan for BLE devices.
 
 
 ![Picture5](https://user-images.githubusercontent.com/14210389/215824439-e28bada1-0149-449c-bda1-4a140196a814.png)
