@@ -1,7 +1,7 @@
 # Pulse - Heart Rate Monitor Companion App
 
 ## Overview
-This repository is dedicated to the app component of the Pulse project, a heart rate monitor that notifies users when they are above or below their targeted training heart rate zone. The overall project was a collaboration between 6 people: Alex Berman, Lizzie Gower, Brian Laustsen, Ababakar Okieh, Wilson Reynolds, and Sim Sealy. 
+This repository is dedicated to the app component of the Pulse project, a heart rate monitor that notifies users when they are above or below their targeted training heart rate zone. The overall project was a collaboration between 6 people: Alex B., Lizzie G., Brian L., Ababakar O., Wilson R., and Sim Sealy. 
 
 **The app was designed and developed by Sim Sealy.**
 
