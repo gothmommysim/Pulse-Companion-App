@@ -11,18 +11,19 @@ The app was developed in C# for Unity, providing a platform to easily build a cr
 ## App Interface
 ![Picture1](https://user-images.githubusercontent.com/14210389/215823857-04584073-b2e4-4eef-988e-5bb950a48072.png)
 ![Picture2](https://user-images.githubusercontent.com/14210389/215823881-ae11597e-8557-45a4-937d-eb09c782bdbf.png)
-- Profile Select and Main Menu: Allows users to input their name and age to create a profile and finetune their heart rate zones using a workout intensity slider.
+- Profile Select and Main Menu
 
-On the software interface, the user inputs data for a profile: name and age. Using the age of the user, the app calculates a safe heart rate zone range. The user then enters a workout intensity to finalize their desired target heart rate zone.
 
 ![Picture3](https://user-images.githubusercontent.com/14210389/215823952-05a1d01f-4689-42ba-8d90-033efcb2427c.png)
 ![Picture4](https://user-images.githubusercontent.com/14210389/215823964-6486bc1d-120d-4825-a52f-e33e128baa13.png)
-- Create Profile: Provides a calendar UI to load previous workouts saved locally on the device.
+- Create Profile: Allows users to input their name and age to create a profile and finetune their heart rate zones using a workout intensity slider.
 
+On the software interface, the user inputs data for a profile: name and age. Using the age of the user, the app calculates a safe heart rate zone range. The user then enters a workout intensity to finalize their desired target heart rate zone.
 
 ![Picture7](https://user-images.githubusercontent.com/14210389/215823984-34f9a0bf-fd68-49f7-8550-ea491804708d.png)
 ![Picture6](https://user-images.githubusercontent.com/14210389/215824002-572bc582-129b-4113-8998-06f9149fbb67.png)
-- Workout Select: Allows users to view their saved workouts.
+- Workout Select: Provides a calendar UI to load previous workouts saved locally on the device.
+Allows users to view their saved workouts.
 
 The user’s profile data is saved locally to a config file designed to be streamed over Bluetooth. In the workouts section of the app, if a workout file is available locally, the algorithm pulls the heart rate data chosen from the calendar list.
 
