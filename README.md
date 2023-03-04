@@ -1,14 +1,14 @@
 # Pulse - Heart Rate Monitor Companion App
 
 ## Overview
-This repository is dedicated to the app component of the Pulse project, a heart rate monitor that notifies users when they are above or below their targeted training heart rate zone. The overall project was a collaboration between 6 people: Alex B., Lizzie G., Brian L., Ababakar O., Wilson R., and Sim Sealy. 
+This repository is dedicated to the app component of the "Pulse" project. This was a senior capstone project where the team designed and developed a heart rate monitor that notifies users when they are above or below their targeted training heart rate zone. The project included a hardware and software portion. The overall project was a collaboration between 6 people: Alex B., Lizzie G., Brian L., Ababakar O., Wilson R., and Sim Sealy. 
 
-**The app was designed and developed by Sim Sealy.**
+The app was designed and developed by Sim Sealy.
 
 ## App Development
-The app was developed in C# for Unity, providing a platform to easily build a cross-platform mobile app with libraries to utilize Android file management.
+The app was developed in C# for Unity, providing a platform to easily build a cross-platform mobile app with libraries to utilize Android file management. The team chose to work with Unity since it offered an easy to use interface to develop interactive content.
 
-## App Interface
+## User Interface
 ![Picture1](https://user-images.githubusercontent.com/14210389/215823857-04584073-b2e4-4eef-988e-5bb950a48072.png)
 ![Picture2](https://user-images.githubusercontent.com/14210389/215823881-ae11597e-8557-45a4-937d-eb09c782bdbf.png)
 - Profile Select and Main Menu
